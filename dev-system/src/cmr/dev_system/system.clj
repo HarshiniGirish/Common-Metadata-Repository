@@ -63,7 +63,7 @@
             :stop search-system/stop}
    :bootstrap {:start bootstrap-system/start
                :stop bootstrap-system/stop}
-   :access-control {:start access-control-system/dev-start
+   :access-control {:start access-control-system/start
                     :stop access-control-system/stop}
    :virtual-product {:start vp-system/start
                      :stop vp-system/stop}})
