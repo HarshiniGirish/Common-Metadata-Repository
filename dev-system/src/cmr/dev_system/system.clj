@@ -55,7 +55,7 @@
                :stop mock-echo-system/stop}
    :metadata-db {:start mdb-system/start
                  :stop mdb-system/stop}
-   :indexer {:start indexer-system/dev-start
+   :indexer {:start indexer-system/start
              :stop indexer-system/stop}
    :ingest {:start ingest-system/start
             :stop ingest-system/stop}
@@ -63,7 +63,7 @@
             :stop search-system/stop}
    :bootstrap {:start bootstrap-system/start
                :stop bootstrap-system/stop}
-   :access-control {:start access-control-system/dev-start
+   :access-control {:start access-control-system/start
                     :stop access-control-system/stop}
    :virtual-product {:start vp-system/start
                      :stop vp-system/stop}})
